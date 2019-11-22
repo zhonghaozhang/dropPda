@@ -1,4 +1,10 @@
 {
+  "_args": [
+    [
+      "cordova-plugin-baidumaplocation@4.0.2",
+      "/Users/zhangzhonghao/Desktop/workspace/dropPda"
+    ]
+  ],
   "_from": "cordova-plugin-baidumaplocation@4.0.2",
   "_id": "cordova-plugin-baidumaplocation@4.0.2",
   "_inBundle": false,
@@ -16,12 +22,10 @@
     "fetchSpec": "4.0.2"
   },
   "_requiredBy": [
-    "#USER",
     "/"
   ],
   "_resolved": "https://registry.npm.taobao.org/cordova-plugin-baidumaplocation/download/cordova-plugin-baidumaplocation-4.0.2.tgz",
-  "_shasum": "d00db17c361d895fc23c97547d82feceb9cd6e53",
-  "_spec": "cordova-plugin-baidumaplocation@4.0.2",
+  "_spec": "4.0.2",
   "_where": "/Users/zhangzhonghao/Desktop/workspace/dropPda",
   "author": {
     "name": "aruis"
@@ -29,14 +33,12 @@
   "bugs": {
     "url": "https://github.com/aruis/cordova-plugin-baidumaplocation/issues"
   },
-  "bundleDependencies": false,
   "cordova": {
     "id": "cordova-plugin-baidumaplocation",
     "platforms": [
       "android"
     ]
   },
-  "deprecated": false,
   "description": "Cordova Geolocation Plugin,use Baidu Map SDK",
   "engines": {
     "cordovaDependencies": {

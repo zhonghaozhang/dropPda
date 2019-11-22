@@ -73,7 +73,7 @@
     "is_top_level": true,
     "variables": {
       "ANDROID_KEY": "21m290YEWGnxOrwhUrr709a0dfHon24n",
-      "IOS_KEY": "<API_KEY_IOS>"
+      "IOS_KEY": "HOOcBvWvgIN9ORG0Em1QGhymlDNxTpCL"
     }
   },
   "cordova-plugin-keyboard": {

@@ -7,38 +7,38 @@
     "files": {}
   },
   "installed_plugins": {
+    "cordova-plugin-baidumaplocation": {
+      "ANDROID_KEY": "21m290YEWGnxOrwhUrr709a0dfHon24n",
+      "IOS_KEY": "HOOcBvWvgIN9ORG0Em1QGhymlDNxTpCL",
+      "IOS_LOCATION_DESC": "请点击'好'以允许访问。",
+      "PACKAGE_NAME": "com.znltapp.demo"
+    },
     "cordova-plugin-camera": {
       "ANDROID_SUPPORT_V4_VERSION": "27.+",
-      "PACKAGE_NAME": "io.cordova.hellocordova"
+      "PACKAGE_NAME": "com.znltapp.demo"
     },
     "cordova-plugin-geolocation": {
-      "PACKAGE_NAME": "io.cordova.hellocordova"
-    },
-    "cordova-plugin-qrscanner": {
-      "PACKAGE_NAME": "io.cordova.hellocordova"
-    },
-    "cordova-plugin-splashscreen": {
-      "PACKAGE_NAME": "io.cordova.hellocordova"
-    },
-    "cordova-plugin-vibration": {
-      "PACKAGE_NAME": "io.cordova.hellocordova"
-    },
-    "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "io.cordova.hellocordova"
-    },
-    "cordova-plugin-baidumaplocation": {
-      "ANDROID_KEY": "<API_KEY_ANDROID>",
-      "IOS_KEY": "<API_KEY_IOS>",
-      "IOS_LOCATION_DESC": "请点击'好'以允许访问。",
-      "PACKAGE_NAME": "io.cordova.hellocordova"
+      "PACKAGE_NAME": "com.znltapp.demo"
     },
     "cordova-plugin-keyboard": {
+      "PACKAGE_NAME": "com.znltapp.demo"
+    },
+    "cordova-plugin-qrscanner": {
+      "PACKAGE_NAME": "com.znltapp.demo"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.znltapp.demo"
+    },
+    "cordova-plugin-vibration": {
+      "PACKAGE_NAME": "com.znltapp.demo"
+    },
+    "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.znltapp.demo"
     }
   },
   "dependent_plugins": {
     "cordova-plugin-add-swift-support": {
-      "PACKAGE_NAME": "io.cordova.hellocordova"
+      "PACKAGE_NAME": "com.znltapp.demo"
     }
   }
 }

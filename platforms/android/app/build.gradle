@@ -98,8 +98,8 @@ ext {
 }
 
 // PLUGIN GRADLE EXTENSIONS START
-apply from: "../cordova-plugin-qrscanner/hellocordova-qrscanner.gradle"
-apply from: "../cordova-plugin-baidumaplocation/hellocordova-BaiduMapLocation.gradle"
+apply from: "../cordova-plugin-baidumaplocation/demo-BaiduMapLocation.gradle"
+apply from: "../cordova-plugin-qrscanner/demo-qrscanner.gradle"
 // PLUGIN GRADLE EXTENSIONS END
 
 def hasBuildExtras1 = file('build-extras.gradle').exists()
