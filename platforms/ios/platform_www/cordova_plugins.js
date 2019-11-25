@@ -105,6 +105,14 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
       "clobbers": [
         "window.Keyboard"
       ]
+    },
+    {
+      "id": "com.lampa.startapp.startapp",
+      "file": "plugins/com.lampa.startapp/www/startApp.js",
+      "pluginId": "com.lampa.startapp",
+      "merges": [
+        "startApp"
+      ]
     }
   ];
   module.exports.metadata = {
@@ -116,6 +124,7 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
     "cordova-plugin-add-swift-support": "2.0.2",
     "cordova-plugin-qrscanner": "3.0.1",
     "cordova-plugin-baidumaplocation": "4.0.2",
-    "cordova-plugin-keyboard": "1.2.0"
+    "cordova-plugin-keyboard": "1.2.0",
+    "com.lampa.startapp": "6.1.6"
   };
 });

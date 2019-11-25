@@ -13,6 +13,7 @@
   "author": "Apache Cordova Team",
   "license": "Apache-2.0",
   "dependencies": {
+    "com.lampa.startapp": "git+https://github.com/lampaa/com.lampa.startapp.git",
     "cordova-android": "^8.1.0",
     "cordova-browser": "^6.0.0",
     "cordova-ios": "^5.0.1",
@@ -42,7 +43,8 @@
         "ANDROID_KEY": "21m290YEWGnxOrwhUrr709a0dfHon24n",
         "IOS_KEY": "HOOcBvWvgIN9ORG0Em1QGhymlDNxTpCL"
       },
-      "cordova-plugin-keyboard": {}
+      "cordova-plugin-keyboard": {},
+      "com.lampa.startapp": {}
     },
     "platforms": [
       "browser",

@@ -39,6 +39,10 @@
             {
               "xml": "<feature name=\"Keyboard\"><param name=\"ios-package\" onload=\"true\" value=\"CDVKeyboard\" /></feature>",
               "count": 1
+            },
+            {
+              "xml": "<feature name=\"startApp\"><param name=\"ios-package\" value=\"startApp\" /></feature>",
+              "count": 1
             }
           ]
         }
@@ -102,6 +106,9 @@
       "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
     },
     "cordova-plugin-keyboard": {
+      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+    },
+    "com.lampa.startapp": {
       "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
     }
   },
@@ -212,6 +219,14 @@
       "clobbers": [
         "window.Keyboard"
       ]
+    },
+    {
+      "id": "com.lampa.startapp.startapp",
+      "file": "plugins/com.lampa.startapp/www/startApp.js",
+      "pluginId": "com.lampa.startapp",
+      "merges": [
+        "startApp"
+      ]
     }
   ],
   "plugin_metadata": {
@@ -223,6 +238,7 @@
     "cordova-plugin-add-swift-support": "2.0.2",
     "cordova-plugin-qrscanner": "3.0.1",
     "cordova-plugin-baidumaplocation": "4.0.2",
-    "cordova-plugin-keyboard": "1.2.0"
+    "cordova-plugin-keyboard": "1.2.0",
+    "com.lampa.startapp": "6.1.6"
   }
 }

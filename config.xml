@@ -17,6 +17,8 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <allow-intent href="bdapp://*/*" />
+    <allow-intent href="baidumap://*/*" />
     <platform name="android">
         <icon density="ldpi" src="icon/android/icon-36-ldpi.png"/>
         <icon density="mdpi" src="icon/android/icon-48-ldpi.png"/>

@@ -34,6 +34,9 @@
     },
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.znltapp.demo"
+    },
+    "com.lampa.startapp": {
+      "PACKAGE_NAME": "com.znltapp.demo"
     }
   },
   "dependent_plugins": {

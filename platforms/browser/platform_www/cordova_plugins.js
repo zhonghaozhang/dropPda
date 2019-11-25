@@ -91,6 +91,14 @@ module.exports = [
         "clobbers": [
             "window.Keyboard"
         ]
+    },
+    {
+        "file": "plugins/com.lampa.startapp/www/startApp.js",
+        "id": "com.lampa.startapp.startapp",
+        "pluginId": "com.lampa.startapp",
+        "merges": [
+            "startApp"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -103,7 +111,8 @@ module.exports.metadata =
     "cordova-plugin-vibration": "3.1.1",
     "cordova-plugin-qrscanner": "3.0.1",
     "cordova-plugin-baidumaplocation": "4.0.2",
-    "cordova-plugin-keyboard": "1.2.0"
+    "cordova-plugin-keyboard": "1.2.0",
+    "com.lampa.startapp": "6.1.6"
 }
 // BOTTOM OF METADATA
 });

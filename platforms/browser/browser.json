@@ -48,6 +48,9 @@
     },
     "cordova-plugin-keyboard": {
       "PACKAGE_NAME": "com.znltapp.demo"
+    },
+    "com.lampa.startapp": {
+      "PACKAGE_NAME": "com.znltapp.demo"
     }
   },
   "dependent_plugins": {},
@@ -143,6 +146,14 @@
       "clobbers": [
         "window.Keyboard"
       ]
+    },
+    {
+      "file": "plugins/com.lampa.startapp/www/startApp.js",
+      "id": "com.lampa.startapp.startapp",
+      "pluginId": "com.lampa.startapp",
+      "merges": [
+        "startApp"
+      ]
     }
   ],
   "plugin_metadata": {
@@ -153,6 +164,7 @@
     "cordova-plugin-vibration": "3.1.1",
     "cordova-plugin-qrscanner": "3.0.1",
     "cordova-plugin-baidumaplocation": "4.0.2",
-    "cordova-plugin-keyboard": "1.2.0"
+    "cordova-plugin-keyboard": "1.2.0",
+    "com.lampa.startapp": "6.1.6"
   }
 }

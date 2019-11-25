@@ -35,6 +35,7 @@
 		E6368ABEF5344375B35DECAF /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E0BE0B3B0C534F80A114CFEB /* libsqlite3.0.tbd */; };
 		60B88158BA7D4F94B5B721E5 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A40D88A94F5D4AC8A973D2BF /* CoreTelephony.framework */; };
 		FE84E7B61A23455F8F5BB6BF /* CDVKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F32646F5CB4C788658FB65 /* CDVKeyboard.m */; };
+		1038D4AB65A4424BBE0A197D /* startApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE067358BF74E7497400DC8 /* startApp.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,6 +115,8 @@
 		A40D88A94F5D4AC8A973D2BF /* CoreTelephony.framework */ = {isa = PBXFileReference; name = "CoreTelephony.framework"; path = "System/Library/Frameworks/CoreTelephony.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 		B8F32646F5CB4C788658FB65 /* CDVKeyboard.m */ = {isa = PBXFileReference; name = "CDVKeyboard.m"; path = "cordova-plugin-keyboard/CDVKeyboard.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
 		9F5A3E9C1214483190DD7CE2 /* CDVKeyboard.h */ = {isa = PBXFileReference; name = "CDVKeyboard.h"; path = "cordova-plugin-keyboard/CDVKeyboard.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		5CE067358BF74E7497400DC8 /* startApp.m */ = {isa = PBXFileReference; name = "startApp.m"; path = "com.lampa.startapp/startApp.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		998970CD4DD44CC384F12098 /* startApp.h */ = {isa = PBXFileReference; name = "startApp.h"; path = "com.lampa.startapp/startApp.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -262,6 +265,8 @@
 				6EB07599B66149C1A246AA7E /* BaiduMapLocation.h */,
 				B8F32646F5CB4C788658FB65 /* CDVKeyboard.m */,
 				9F5A3E9C1214483190DD7CE2 /* CDVKeyboard.h */,
+				5CE067358BF74E7497400DC8 /* startApp.m */,
+				998970CD4DD44CC384F12098 /* startApp.h */,
 			);
 			name = Plugins;
 			path = "HelloCordova/Plugins";
@@ -396,6 +401,7 @@
 				B92973A93CC34E80A63313FD /* QRScanner.swift in Sources */,
 				CEB484E9832F4A2E8402AFC5 /* BaiduMapLocation.mm in Resources */,
 				FE84E7B61A23455F8F5BB6BF /* CDVKeyboard.m in Sources */,
+				1038D4AB65A4424BBE0A197D /* startApp.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
