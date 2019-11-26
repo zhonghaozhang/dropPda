@@ -1,0 +1,10 @@
+{
+  "android": {
+    "release": {
+      "keystore": "znlt.key.keystore",
+      "alias": "znlt-demo",
+      "storePassword": "android",
+      "password": "android"
+    }
+  }
+}

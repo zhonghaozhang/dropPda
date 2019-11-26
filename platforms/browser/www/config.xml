@@ -15,5 +15,7 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <allow-intent href="bdapp://*/*" />
+    <allow-intent href="baidumap://*/*" />
     <preference name="loadUrlTimeoutValue" value="120000" />
 </widget>
